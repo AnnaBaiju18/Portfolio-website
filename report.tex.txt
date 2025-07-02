@@ -1,0 +1,169 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{setspace}
+
+\geometry{left=3cm,right=3cm,top=2.5cm,bottom=2.5cm}
+
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection.}{1em}{}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={Computer Science Portfolio Development - Project Report},
+    pdfauthor={Anna Baiju}
+}
+
+\onehalfspacing
+
+\title{\textbf{Project Report \\[0.5em] Computer Science Portfolio}}
+\author{Submitted by: Anna Baiju \\[0.5em]
+Course: Computer Science Lab \\ 
+Institution: GISMA University of Applied Sciences Berlin \\[0.5em]
+Date: 03-07-2025}
+\date{}
+
+\begin{document}
+
+\maketitle
+\hrule
+\vspace{1em}
+
+\noindent\textbf{Table of Contents}
+
+\begin{enumerate}
+    \item Introduction
+    \item Portfolio Links
+    \item Website Structure
+    \item Design Decisions
+    \item Technologies Used and Project Details
+    \item Reflection
+    \item Conclusion
+    \item References
+\end{enumerate}
+
+\vspace{1em}
+\hrule
+\vspace{2em}
+
+\section{Introduction}
+In the current world where everything is driven by technology, having an online portfolio is a must for displaying one's technical and academic skills. A digital portfolio is not only a professional presentation but also a place for ongoing development, self-reflection, and being seen. Being a computer science student, I made this portfolio aiming to represent my projects, skills, and achievements in a clean and accessible format.
+
+The development of my personal portfolio, including its design rationale, the technologies used, and the content featured, is the main focus of this report. The portfolio is targeted both at academic and professional people, who are interested in seeing my work, understanding my problem-solving method, and exploring my technical capabilities.
+
+The site was designed to be simple, honest, and to the point—with an emphasis on content clarity over visual appeal. It was accomplished with the use of the basic tools: HTML and CSS. Hosted on GitHub Pages, it enables me to distribute and update my portfolio easily and at no charge. In the next paragraphs, I will narrate the site’s organization, design choices, project accounts, and a reflection on the process.
+
+
+\section{Portfolio Links}
+My personal portfolio is publicly available and hosted via GitHub Pages. Visitors can browse through the website to view my projects, CV, and other key information:
+
+\begin{itemize}
+    \item Live Website: \url{https://annabaiju18.github.io/Portfolio-website/}
+    \item GitHub Repository: \url{https://github.com/AnnaBaiju18/Portfolio-website}
+\end{itemize}
+
+These links provide access to both the site and the source files, allowing transparency for those interested in the development process behind the portfolio.
+
+\section{Website Structure}
+The design of the site is simple and straightforward, with very visible, clear scroll-based navigation. The main page commences with a very basic introduction—my name, role, and minimal background—right away followed by important areas like "About Me", "Projects”.
+
+In the "About Me" part, I first briefly introduce myself and emphasis is put on my computer science student background. It mentions my present academic program, the areas I like most such as artificial intelligence, and software development, my interest for learning new technologies. Even though this section is deliberately short, it still serves as an entry point for the viewers to get to know me and my goals and interests.
+
+"Projects" section is like a portfolio of some handpicked Python-driven programs that I created. Among those are a Budget Calculator and a Time Tracker with pie chart visualization. For better user experience, each project has a short description of the technologies used and a link to the live project intended for going there rather than to the repository.
+
+In the "Resume" part, visitors are given a chance to download or view my LaTeX-designed CV. This document provides a fairly detailed and clean, professional presentation of my academic qualifications, skills, and project experience.
+
+Contact info appears straight at the top of the main page, just below my name and a short description. It has my email, LinkedIn, and GitHub. Hence, no dedicated "Contact" section or filling in additional forms is necessary for the viewers to reach out.
+
+The primary audience for this portfolio are those people who could be my internship supervisors, academic mentors, or future collaborators in the technology field. In order to manifest my technical capabilities and my readiness to solve real-world problems to potential internship supervisors, academic mentors, and future collaborators in the technology field, I have provided clear access to my projects and background and explained my capabilities. Additionally, the portfolio is a digital resume that is accessible globally and always up-to-date, which further increases my professional visibility.
+
+The secondary audience is peers and other students who might be interested in my learning journey or projects. By sharing the work I have done publicly, I open up myself to criticisms and create new links within the programming and developer community.
+
+This two-part audience has a major bearing on features such as the cleanness and professionalism of the design and the presence of the main projects that demonstrate the expertise in a broad range of skills, from code, visualization, to documentation.
+
+
+\section{Design Decisions}
+My design approach was all centered on simplicity, clearness, and responsiveness. The aim was to make sure the website still looked clean and professional without the need for complex frameworks or visually unnecessary elements.
+
+I chose a clean layout with legible font choices and enough spacing to ensure good readability on various screen sizes. In addition, I made sure all elements were correctly aligned and that the content was given a clear hierarchy—from the most important (my name and role) to the more detailed sections (projects and resume).
+
+The color scheme was very purposeful and neutral, so no bright or highly saturated tones were used. This color scheme not only gives the site a more calm and professional feel but also allows the content to be the main focus throughout the whole site. At the same time, we did not include any animations or interactions, as the focus was on the functionality and load speed of the site.
+Choosing to have a static site allowed me to host it easily on GitHub. GitHub Pages is an ideal platform for publishing static content in a cheap and fast way. Besides, this option gave me the opportunity to learn the basics of HTML and CSS more deeply, as I wrote and styled everything by hand.
+
+During the building of the website, I also took care of making it responsive. The layout repositions itself a bit in order to be suitable for smaller screens like those on mobile devices, and at the same time, it does not lose its usability on both phones and desktops. Yet, given that the site is content-focused and scroll-based, it does not require a compact responsive framework.
+In the phase of the design, I tried out other layout concepts multiple times until I found the most suitable one. The main hurdle was finding a good mix between content density and visual clarity. 
+
+Firstly, I added some interactive components, but they made the loading slower and the site more complicated, so I decided to have a static site for better speed and easier servicing. Another problem was that the site had to be accessible to everyone. I also checked contrast ratios and font sizes to meet the basic web accessibility standards so that people with different visual abilities can easily use the site.
+
+
+\section{Technologies Used and Project Details}
+
+This portfolio includes a few Python-based mini-projects that were both practical and enjoyable to create. Below is an overview of the technologies used and the features of each project highlighted on the site:
+
+\subsection{Budget Calculator (Python)}
+The Budget Calculator is a simple yet functional program designed to help users manage their spending. The user inputs their total budget first. Then, the program asks them to enter their expenses in various categories. Once all entries are made, the calculator displays the remaining budget along with a summary of how the money was spent.
+
+This project was built using basic Python syntax, conditionals, loops, and input validation. It offered a good opportunity to practice logical thinking and structuring code for usability. The interface runs in the command line, making it accessible without any special software or libraries.
+
+The budget calculator is the program written in Python that utilizes control constructs like loops and conditionals in order to ask for cost information repeatedly until the user decides to stop. I made input validation to avoid the program from behaving improperly due to the wrong data that includes negative numbers or non-numeric input. The output summary not only shows the remaining money but also presents the spending by the categories in which dictionaries were used to map categories to the expense totals.
+
+
+\subsection{Time Tracker with Pie Chart (Python + Matplotlib)}
+This project shows the record of the amount of time they spend on various programming tasks. The program generates a pie chart that visually represents how the my  time is divided.
+The chart is generated using the Matplotlib library, a standard visualization tool in Python. This project helped me understand how to collect, organize, and visualize data in an intuitive way. It is especially useful for tracking productivity and analyzing personal work habits.
+
+This time tracker project makes use of the Matplotlib library in order to visually represent the time tracking data. The application draws up a pie chart with labels and percentage values that make them better understand the task distribution. This was my first experience with data visualization and graphical feedback concepts in productivity tools.
+
+
+\subsection{LaTeX CV}
+I used LaTeX to create a professional-looking CV included in the portfolio. The layout features well-structured sections including education, skills, projects, and contact information. LaTeX allowed me to present this information in a consistent and visually clean manner. It also helped me gain experience with markup-based document creation, which is useful for academic and technical writing.
+
+During the making of my CV, my efforts were directed towards structure and clarity which was done through the use of sections and subsections, consistent formatting styles, to efficiently organize information. LaTeX's powerful templating made it possible for me to update and maintain the document without disturbing its professional look, a skill that is highly demanded in academic and professional environments.
+
+
+\subsection{Portfolio Website (HTML/CSS)}
+The portfolio itself is a project. It was built using only HTML and CSS, avoiding any use of JavaScript or external frameworks. I chose this approach to focus on mastering the fundamentals.
+The website is hosted on GitHub Pages, which allows free and reliable hosting for static content. The hosting setup required me to configure the repository structure, enable GitHub Pages, and manage commit history effectively.
+
+
+\section{Reflection}
+This portfolio has been a big step in my journey as a computer science student. To do this project I used my skills, got more technical knowledge, and made something that I really like from the ground up. I found out how to properly plan and organize a website, utilize design principles, and merge different forms of content such as code, visuals, and documents.
+
+Presenting technical work in a very clear way was probably the biggest thing I learned. That involves not only coding but also writing descriptions, logically organizing the content, and thinking from the user’s point of view.
+
+Of course, some problems did occur. The first one was to make the site nice-looking on different screen sizes. Secondly, it was deciding how much I want to write in the "About Me" section because I wanted it to be short and at the same time informative. Additionally, I had to keep redoing my code and fixing the layout a lot of times, which really taught me how vital testing and iteration are.
+In the coming times, I want to make my portfolio better by putting up more elaborate project pages, including screenshots or demo videos, and providing simple interactivity with JavaScript. Besides, I am also looking forward to studying web frameworks such as React, so I can create a more dynamic and scalable version later on.
+
+Among the multiple benefits of this project, building up personal brand and gaining knowledge in web development are the most prominent. Besides, it gave me the impetus to continue learning and experimenting with new instruments and ideas. At this point, I am much clearer about how to effectively present my work and I am more equipped with confidence to apply for internships or work with others in the tech community.
+
+After I launched my portfolio, I sent it to my friends, classmates, and mentors to get their opinions and ideas. The responses pointed out the clear explanations of the projects; however, they also indicated that more visuals like screenshots or demos would help users to understand the functionality better.
+
+While some respondents found the navigation easy, others suggested that more explicit section titles or a sticky menu might make the access quicker. These comments helped me to form my plans for the next steps like using JavaScript for improving interactivity and making the user experience more dynamic.
+
+This portfolio project has been a great source of learning for me, as it has shown me how to combine different skills such as programming, web development, and technical writing. I have become more confident in using version control with Git, organizing project files, and publishing content on live platforms like GitHub Pages.
+
+Besides, I have also sharpened my skills to describe technical issues in plain language that is necessary for teamwork and professional communication. The project has also given me a boost in the exploration of the front-end frameworks and more advanced visualization techniques.
+
+
+\section{Conclusion}
+The portfolio project not only illustrates my technical skills but also demonstrates my dedication to growth as a developer. Creating a fully operational, publicly available website has given me a lot of practical experience in coding, communication, design, and documentation.
+I utilized simple tools such as HTML, CSS, Python, and LaTeX to build a website that is a reflection of who I am and my achievements thus far. Making the project available online using GitHub Pages also means that it can be accessed and used in the future without any problems.
+
+The report elaborated on the purpose of the portfolio, the decisions I made throughout the development phase, the technologies I adopted, and my future plans for this project. To sum up, this journey has been a great learning experience for me to understand what it means to create something that is valuable, well-designed, and self-expressive.
+
+Future versions of this portfolio will also show expanded project pages with screenshots, code excerpts, and video walkthroughs that are more engaging to the readers. To enhance the interactivity of the site, I also intend to use JavaScript, for example, to filter projects by technology or have live code previews.
+
+Furthermore, I have plans to add user-friendly and responsive navigation menus and perhaps even backend integration so that visitors have the option to leave feedback or get in touch with me directly via the site. Besides, it will be important for me to learn and use contemporary web frameworks such as React or Vue.js, so that the portfolio I create can be more scalable and easier to maintain.Besides, I also am going to keep my portfolio updated with new things I do and learn so that it reflects my skills gradually.
+
+To sum up, this portfolio project is the hallmark of my growth as a computer science student and an aspiring professional. It provided me an opportunity to integrate skills from various fields, such as programming, web development, and technical writing, into a simple and readable presentation of my work. In the course of this, I realized the worth of simplicity, clarity, and design for the user in the creation of an effective digital portfolio. GitHub Pages' hosting of the site allowed me to gain practical experience with both version control and the deployment of actual web applications.
+
+The projects that are in the portfolio clearly and vividly depict my skills and problem-solving mentality, which are the proof that I am not only technically proficient but also focused on practical applications. This journey has given me a lot of confidence in my presentation skills and in the professional field of my expertise. In the future, I intend to improve the portfolio by incorporating interactive features, providing more detailed project descriptions and including multimedia content to make it more interesting.
+
+In the end, the portfolio is a dynamic document that will change as I learn new things and develop. It serves as a bridge between my academic accomplishments and the career opportunities of the future, and acts as a source of motivation to me in my quest for constant improvement. This project has energized me to continue my passion for technology and equipped me to deal with the challenges in it with confidence.
+
+
+\end{document}
